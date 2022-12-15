@@ -86,7 +86,8 @@ nav {
 }
 .firstContainer {
   background-color: white;
-  margin-bottom: 8vh;
+  padding-top: 2vh;
+  padding-bottom: 8vh;
 }
 .secondContainer {
   background-color: var(---lightGrayishBlue);
@@ -208,7 +209,8 @@ p {
 #mockupsPC {
   display: none;
 }
-@media (min-width: 490px) {
+
+@media (min-width: 811px) {
   nav {
     margin-bottom: 25vh;
   }
@@ -243,10 +245,10 @@ p {
     cursor: pointer;
   }
   h1 {
-    width: 100%;
+    width: 69%;
   }
   .firstContainer h4 {
-    width: 100%;
+    width: 64%;
   }
   .firstContainer #button {
     margin-left: 2rem;
@@ -298,10 +300,10 @@ p {
   .firstContainer {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     padding-left: 150px;
     padding-bottom: 16vh;
-    background-color: transparent;
+    background-color: hsl(0, 0%, 100%, 70%);
   }
   .secondContainer {
     display: flex;
@@ -350,5 +352,16 @@ p {
   .socialMediaIcons svg path:hover {
     fill: var(--limeGreen);
     cursor: pointer;
+  }
+}
+@media (min-width: 1380px) {
+  .firstContainer {
+    background-color: transparent;
+  }
+  .firstContainer h1 {
+    width: 50%;
+  }
+  .firstContainer h4 {
+    width: 40%;
   }
 }
