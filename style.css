@@ -75,7 +75,7 @@ nav {
   align-items: center;
 }
 #mockups {
-  background-image: url(/images/bg-intro-mobile.svg);
+  background-image: url(images/bg-intro-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -224,7 +224,7 @@ p {
   #mockupsPC {
     display: flex;
     position: absolute;
-    background-image: url(/images/bg-intro-desktop.svg);
+    background-image: url(images/bg-intro-desktop.svg);
     right: -120px;
     top: -50px;
     z-index: -1;
